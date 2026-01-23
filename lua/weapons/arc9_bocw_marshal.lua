@@ -216,14 +216,14 @@ SWEP.VisualRecoilMultSights = 0
 -------------------------- HANDLING
 
 SWEP.FreeAimRadius = 0 -- In degrees, how much this gun can free aim in hip fire.
-SWEP.Sway = 0.3 -- How much the gun sways.
+SWEP.Sway = 0.5 -- How much the gun sways.
+SWEP.SwayMultHipFire = 0 -- How much the gun sways.
+SWEP.SwayMultSights = 0.2
 
 SWEP.HoldBreathTime = 5 -- time that you can hold breath for
 SWEP.RestoreBreathTime = 4
 
 SWEP.FreeAimRadiusSights = 0
-
-SWEP.SwayMultSights = 0.5
 
 SWEP.AimDownSightsTime = 0.2 -- How long it takes to go from hip fire to aiming down sights.
 SWEP.SprintToFireTime = 0.3 -- How long it takes to go from sprinting to being able to fire.
@@ -525,16 +525,8 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
 
     local camo = 0
 
-    if attached["universal_camo"] then
-        camo = 1
-    end
-
     if attached["bocw_ammo_12_dragonsbreath"] then
         camo = 2
-    end
-
-    if attached["universal_camo"] and attached["bocw_ammo_12_dragonsbreath"] then
-        camo = 3
     end
 
     vm:SetSkin(camo)
