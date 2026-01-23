@@ -7,7 +7,7 @@
 --   SWEP INFORMATION:
 
 --   BASE  : ARC9
---   BUILD : v2025.12
+--   BUILD : v2026.1
 --   SR.NO : 3797350
 
 
@@ -495,12 +495,8 @@ SWEP.Attachments = {
         Category = {"bocw_shotgun_ammo"},
     },
     {
-        PrintName = "Cosmetic",
         DefaultCompactName = "CAMO",
         DefaultIcon = Material("arc9/def_att_icons/skin.png"),
-        Bone = "tag_weapon",
-        Pos = Vector(3, 0, -1),
-        Ang = Angle(0, 0, 0),
         Category = {"universal_camo"},
         CosmeticOnly = true,
     },
