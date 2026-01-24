@@ -325,6 +325,9 @@ SWEP.CamQCA = 3
 
 --SWEP.DoFireAnimation = true
 
+SWEP.FireInterruptInspect = true
+SWEP.SightsInterruptInspect = true
+
 SWEP.NoViewBob = false
 
 -------------------------- VISUALS
@@ -498,6 +501,12 @@ SWEP.Attachments = {
         DefaultCompactName = "CAMO",
         DefaultIcon = Material("arc9/def_att_icons/skin.png"),
         Category = {"universal_camo"},
+        CosmeticOnly = true,
+    },
+    {
+        PrintName = "STICKER 1",
+        Category = "stickers",
+        StickerModel = "models/weapons/arc9/stickers/bocw_marshal_sticker1.mdl",
         CosmeticOnly = true,
     },
 }
