@@ -4,8 +4,6 @@
 
 In here are two DLC pistols from BOCW. You can see the workshop page for more details, when it is published. Enjoy!
 
-## [ARC9 BOCW Pistols DLC on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3004184082)
-
 ## You need to have [Shared Content](https://github.com/multinettt/ARC-9_BOCW_Shared_Content) in order to avoid missing textures, materials and sounds.
 
 ## [BOCW Attachments](https://github.com/multinettt/ARC-9_BOCW_Attachments)
