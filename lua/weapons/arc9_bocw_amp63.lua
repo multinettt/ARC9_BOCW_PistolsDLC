@@ -789,6 +789,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         NoMagSwap = true,
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
@@ -821,6 +822,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
+        FireASAP = 1,
         MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
@@ -855,6 +857,7 @@ SWEP.Animations = {
     },
     ["reload_ext"] = {
         Source = "reload_ext",
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
@@ -887,6 +890,7 @@ SWEP.Animations = {
     },
     ["reload_empty_ext"] = {
         Source = "reload_ext_empty",
+        FireASAP = 1,
         MinProgress = 0.5,
         MagSwapTime = 1,
         EventTable = {
@@ -922,7 +926,8 @@ SWEP.Animations = {
     },
     ["reload_fast"] = {
         Source = "reload_fast",
-        MinProgress = 1.12,
+        FireASAP = 1,
+        MinProgress = 0.6,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
             { s = "ARC9_BOCW.AMP63_reload_magout", t = 0.2 },
@@ -954,6 +959,7 @@ SWEP.Animations = {
     },
     ["reload_empty_fast"] = {
         Source = "reload_fast_empty",
+        FireASAP = 1,
         MinProgress = 0.45,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
@@ -988,6 +994,7 @@ SWEP.Animations = {
     },
     ["reload_mix"] = {
         Source = "reload_mix",
+        FireASAP = 1,
         MinProgress = 0.7,
         EventTable = {
             { s = "ARC9_BOCW.AMP63_reload_start", t = 0 },
@@ -1020,6 +1027,7 @@ SWEP.Animations = {
     },
     ["reload_empty_mix"] = {
         Source = "reload_mix_empty",
+        FireASAP = 1,
         MinProgress = 0.5,
         MagSwapTime = 1,
         EventTable = {

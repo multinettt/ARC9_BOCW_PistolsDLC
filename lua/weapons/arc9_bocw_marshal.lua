@@ -607,6 +607,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         NoMagSwap = true,
+        FireASAP = 1,
         MinProgress = 0.75,
         EventTable = {
             { s = "ARC9_BOCW.Marshal_reload_open", t = 0.2 },
@@ -620,6 +621,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
+        FireASAP = 1,
         MinProgress = 0.7,
         EventTable = {
             { s = "ARC9_BOCW.Marshal_reload_open", t = 0.2 },
